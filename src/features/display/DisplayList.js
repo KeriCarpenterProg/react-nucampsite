@@ -22,5 +22,4 @@ const DisplayList = () => {
     </Row>
   );
 };
-
 export default DisplayList;
