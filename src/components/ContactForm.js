@@ -3,10 +3,9 @@ import { Formik, Field, Form, ErrorMessage } from "formik";
 import { validateContactForm } from "../utils/validateContactForm";
 
 const ContactForm = () => {
-  const handleSubmit = (values, { resetForm }) => {
+  const handleSubmit = (values) => {
     console.log("form values:", values);
     console.log("in JSON format:", JSON.stringify(values));
-    resetForm();
   };
   return (
     <Formik

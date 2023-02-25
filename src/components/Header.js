@@ -39,7 +39,7 @@ const Header = () => {
             </NavItem>
             <NavItem>
               <NavLink className="nav-link" to="/contact">
-                <i className="fa fa-address-card fa-lg"></i> Home
+                <i className="fa fa-address-card fa-lg"></i> Contact Us
               </NavLink>
             </NavItem>
           </Nav>
